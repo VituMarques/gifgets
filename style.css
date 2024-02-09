@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #00000000;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 10.5%;
+    background: linear-gradient(90deg, #c13758, #9b4384, #7c4ea9, #515bd9, #3565fb, #5eb9d4, #67c6cd, #5eb9d4, #3565fb, #515bd9, #7c4ea9, #9b4384, #c13758);
+    background-size: 400%;
+    font-size: 200px;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
